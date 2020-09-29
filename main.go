@@ -11,10 +11,11 @@ import (
 	cliHandler "github.com/apex/log/handlers/cli"
 	"github.com/dustin/go-humanize"
 	"github.com/fatih/color"
-	"github.com/google/go-github/github"
+	"github.com/google/go-github/v32/github"
 	"github.com/urfave/cli/v2"
-	"github.com/wesleimp/github-mergetime/internal/merges"
 	"golang.org/x/oauth2"
+
+	"github.com/wesleimp/github-mergetime/internal/merges"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/apex/log"
-	"github.com/google/go-github/github"
+	"github.com/google/go-github/v32/github"
 )
 
 // Info struct
